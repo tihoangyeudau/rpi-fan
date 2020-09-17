@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 import time
 
 pin = int(2) #Your GPIO Pin
-tempMax = 45.0 #Your Temp max
+tempMax = 60.0 #Your Temp max
 i = int(0)
 
 GPIO.setmode(GPIO.BCM)
